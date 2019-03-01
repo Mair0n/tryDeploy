@@ -7,3 +7,9 @@ node_js:
 branches:
   only:
     - master
+
+deploy:
+  provider: heroku
+  app: itradeploy
+  api_key:
+    secure: 7484fe39-df9a-4eea-9e69-6a98ba15d55f
